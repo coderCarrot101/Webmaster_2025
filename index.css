@@ -1,0 +1,70 @@
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #690003;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  /* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFEFCB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+  
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #520003;
+    color: #FFEFCB;
+    font-weight: bold;
+}
+
+/* removes all the fancy styling from links */
+a:link { 
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+a:active { 
+    text-decoration: none; 
+}
+
+.main {
+    margin-top: 300px;
+}
+body {
+    background-color: #FFEFCB;
+    margin: 0;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 1vw;
+    text-indent: 1vw;
+    color: #604230;
+}
+
+h1 {
+    font-family: Helvetica;
+    text-indent: 1vw;
+    color: #604230;
+    font-size: 1.5vw;
+}
+
+h2 {
+    font-family: Helvetica;
+    text-indent: 1vw;
+    color: #604230;
+    font-size: 1.25vw;
+}
