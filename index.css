@@ -16,7 +16,6 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5vw;
 }
   
 /* Change background on mouse-over */
@@ -50,21 +49,19 @@ body {
 
 p {
     font-family: Helvetica;
-    font-size: 1vw;
-    text-indent: 1vw;
+    font-size: 15px;
+    text-indent: 20px;
     color: #604230;
 }
 
 h1 {
     font-family: Helvetica;
-    text-indent: 1vw;
+    text-indent: 20px;
     color: #604230;
-    font-size: 1.5vw;
 }
 
 h2 {
     font-family: Helvetica;
-    text-indent: 1vw;
+    text-indent: 20px;
     color: #604230;
-    font-size: 1.25vw;
 }
