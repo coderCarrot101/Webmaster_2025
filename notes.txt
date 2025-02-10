@@ -3,3 +3,5 @@ for temporary photos use the duck
 for temporary videos use https://www.youtube.com/watch?v=RhtiDYLbfF4
 
 art direction ideas: https://www.youtube.com/watch?v=hWGgw1K-i8Y
+
+dynamic webpages? https://stackoverflow.com/questions/20307555/how-to-make-text-appear-on-scroll-in-html

@@ -86,9 +86,9 @@ h2 {
     --skew-angle: -5deg;
     --background: linear-gradient(
                     45deg, 
-                    #12c2e9, 
-                    #c471ed, 
-                    #f64f59
+                    #FFEFCB, 
+                    #CBA591, 
+                    #CBA591
                   );
   
     position: relative;
