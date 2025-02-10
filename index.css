@@ -11,12 +11,12 @@
   /* Links inside the navbar */
 .navbar a {
     float: left;
-    display: block;
+    
     color: #FFEFCB;
-    text-align: center;
     padding: 0.5em 0.5em;
     text-decoration: none;
     font-size: 1em;
+
 }
   
 /* Change background on mouse-over */
@@ -40,29 +40,67 @@ a:active {
     text-decoration: none; 
 }
 
-.main {
-    margin-top: 300px;
-}
 body {
     background-color: #FFEFCB;
     margin: 0;
 }
 
 p {
-    font-family: Helvetica;
     font-size: 15px;
     text-indent: 20px;
     color: #604230;
+    padding-left: 5%;
+    max-width:1300px;
+    word-wrap:normal;
 }
 
 h1 {
-    font-family: Helvetica;
+    text-align: center;
     text-indent: 20px;
+    font-size: 35px;
     color: #604230;
 }
 
 h2 {
-    font-family: Helvetica;
+    padding-left: 5%;
     text-indent: 20px;
     color: #604230;
 }
+
+
+
+.site-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.25rem;
+  }
+  
+  section {
+    padding-block: 5rem;
+  }
+  
+  .diagonal {
+    --skew-angle: -5deg;
+    --background: linear-gradient(
+                    45deg, 
+                    #12c2e9, 
+                    #c471ed, 
+                    #f64f59
+                  );
+  
+    position: relative;
+    isolation: isolate;
+  }
+  
+  .diagonal::after {
+    content: '';
+    background: var(--background);
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    transform: skewY(var(--skew-angle));
+  }
+  
