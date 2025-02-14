@@ -169,3 +169,8 @@ footer p {
   color: #FFEFCB;
   font-size: 1em;
 }
+footer {
+  overflow: hidden;
+  background-color: #8f3639;
+  width: 100%;
+}
