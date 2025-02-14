@@ -44,6 +44,7 @@ a:active {
 body {
   background-color: #FFEFCB;
   margin: 0;
+  /*background-image: url("gelato_B.jpg");*/
 
 }
 
@@ -55,6 +56,17 @@ p {
   max-width:1300px;
   word-wrap:normal;
   margin-left: 1em;
+}
+
+h3 {
+
+  text-indent: 20px;
+  color: #604230;
+  padding-left: 5%;
+  max-width:1300px;
+  word-wrap:normal;
+  margin-left: 1em;
+
 }
 
 h1 {
