@@ -95,9 +95,9 @@ section {
 }
 
 .diagonal {
-  z-index: -4; 
+  z-index: 1; 
   --skew-angle: -5deg;
-  --background: linear-gradient( 45deg, #FFEFCB, #CBA591,#CBA591);
+  --background: linear-gradient( 45deg, #CBA591, #CBA591,#FFEFCB);
 
   position: relative;
   isolation: isolate;
@@ -174,3 +174,83 @@ footer {
   background-color: #8f3639;
   width: 100%;
 }
+
+#gelato_B {
+  z-index: -5; 
+  margin-top: 0px;
+  display: block;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  
+}
+
+#gelato_B_element {
+  --skew-angle: -5deg;
+  --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#FFEFCB);
+  margin-top: 230px;
+  display: block;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 50%;
+  height: 1%;
+  position: absolute;
+  isolation: isolate;
+  z-index: -4; 
+
+}
+
+#gelato_B_element::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -4;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
+#mission {
+  display: block;
+  margin-left: 50%;
+  margin-right: 0%;
+  margin-top: -130px;
+}
+
+#process_img {
+  z-index: -3; 
+
+  display: block;
+  margin-left: 50%;
+  margin-right: 0%;
+  width: 25%;
+  height: 25%;
+  position: relative;
+}
+#process p {
+  max-width:600px;
+}
+
+.box {
+  clip-path: polygon(0 4em,4em 0,calc(100% - 4em) 0,100% 4em,100% calc(100% - 4em),calc(100% - 4em) 100%,4em 100%,0 calc(100% - 4em));
+}
+
+.diagonal_B {
+  z-index: -4; 
+  --skew-angle: 0deg;
+  --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#CBA591);
+  position: relative;
+  isolation: isolate;
+  margin-top: -300px;
+}
+
+.diagonal_B::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -4;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
