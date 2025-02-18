@@ -11,3 +11,5 @@ https://www.flickr.com/photos/johnjoh/954831622/
 https://itoldya420.getarchive.net/amp/media/ice-cream-italy-italian-food-drink-6aa844
 
 art style inspiration: https://www.wannapik.com/vectors/48542
+
+<embed src="work_log.pdf" type="application/pdf">
