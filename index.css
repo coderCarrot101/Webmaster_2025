@@ -169,6 +169,7 @@ footer p {
   color: #FFEFCB;
   font-size: 1em;
 }
+
 footer {
   overflow: hidden;
   background-color: #8f3639;
@@ -184,7 +185,7 @@ footer {
   width: 50%;
   height: 50%;
   position: absolute;
-  
+
 }
 
 #gelato_B_element {
