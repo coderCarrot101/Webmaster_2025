@@ -13,3 +13,5 @@ https://itoldya420.getarchive.net/amp/media/ice-cream-italy-italian-food-drink-6
 art style inspiration: https://www.wannapik.com/vectors/48542
 
 <embed src="work_log.pdf" type="application/pdf">
+
+clip-path editor: https://bennettfeely.com/clippy/

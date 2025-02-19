@@ -42,16 +42,15 @@ a:active {
 }
 
 body {
-  background-color: #FFEFCB;
+  background-color: #CBA591;
   margin: 0;
-  /*background-image: url("gelato_B.jpg");*/
 
 }
 
 p {
   font-size: 15px;
   text-indent: 20px;
-  color: #604230;
+  color: hsl(23, 33%, 28%);
   padding-left: 5%;
   max-width:1300px;
   word-wrap:normal;
@@ -234,7 +233,7 @@ footer {
 }
 
 .box {
-  clip-path: polygon(0 14%, 100% 19%, 100% 93%, 0 86%);
+  clip-path: polygon(0 4em,4em 0,calc(100% - 4em) 0,100% 4em,100% calc(100% - 4em),calc(100% - 4em) 100%,4em 100%,0 calc(100% - 4em));
 }
 
 .diagonal_B {
