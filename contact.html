@@ -45,14 +45,20 @@
     margin-bottom: 16px;
     resize: vertical;
 }
-p {
-  text-align: center;
-  text-indent: 20px;
+h4 {
+  text-align: left;
+  text-indent: 240px;
   font-size: 18px;
   color: #604230;
   margin-left: 1em;
+  margin-right: 4em;
 }
-
+h3 {
+  text-align: left;
+  text-indent: -80px;
+  font-size: 18px;
+  color: #604230;
+}
 @media screen and (max-width: 680px) {
   .header, .mainform, input[type=submit] {
     margin: 0px 0px 0px 0px;
@@ -71,9 +77,8 @@ p {
     <!--Header-->
 
     <div class = "header">
-    <h1><b>Complaints? Contact us!</b></h1>
-        <p>Piazza's parlor takes all complaints seriously and strives to improve every day we will analyze your complaint and take the appropriate measures 
-          in order that the reported situation will not occur in the future.</p>
+    <h1><b>Contact us!</b></h1>
+        <h4>At Piazza's Parlor, We value all of our customers and love hearing from you! if you have a Catering or menu request can be made here.</h4>
           <hr/>
     </div>
     
@@ -121,12 +126,12 @@ p {
     <!-- Category of complaint-->
     
     <div id="formsection">
-        <label><b>What is the category of complain you are facing?</b></label>
+        <label><b>Contact Reason</b></label>
 
-        <h4><input type="checkbox" name="section" value="Quality">Quality</h4>
-        <h4><input type="checkbox" name="section" value="Service">Service</h4>
-        <h4><input type="checkbox" name="section" value="Cost">Cost</h4>
-        <h4><input type="checkbox" name="section" value="Something Else">Something Else</h4>
+        <h3><input type="checkbox" name="section" value="Catering">Catering</h3>
+        <h3><input type="checkbox" name="section" value="Support">Support</h3>
+        <h3><input type="checkbox" name="section" value="Complaints">Complaints</h3>
+        <h3><input type="checkbox" name="section" value="Something Else">Something Else</h3>
 
       </div>
 
@@ -134,7 +139,7 @@ p {
     <!-- Complaint Details-->
 
     <label for="subject"><b>Complaint Details:</b></label>
-    <textarea id="subject" name="subject" placeholder="Enter your complaint details......." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Tell us more!" style="height:200px"></textarea>
 
 
     <!--Submit Button-->
