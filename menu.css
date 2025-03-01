@@ -236,11 +236,12 @@ footer {
 
 .diagonal_B {
   z-index: -4; 
-  --skew-angle: 0deg;
-  --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#CBA591);
-  position: relative;
+  --skew-angle: 7deg;
+  --background: linear-gradient( 100deg, #CBA591, #FFEFCB,#FFEFCB);
+  position: absolute;
   isolation: isolate;
-  margin-top: -300px;
+  margin-top: 800px;
+  margin-left: 800;
 }
 
 .diagonal_B::after {
@@ -253,23 +254,22 @@ footer {
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   background-color: #FFEFCB;
   width: 1000px;
   padding-top: 50px;
   padding-bottom: 50px;
-  box-shadow: 0px 5px 9px 3px rgba(83, 7, 7, 0.63);
+  /*box-shadow: 0px 5px 9px 3px rgba(83, 7, 7, 0.63);*/
+  text-align:center
 }
 
 .menu p {
+  margin:auto;
   all: initial;
-  text-align: center;
   font-size: 35px;
   color: hsl(23, 33%, 28%);
   max-width:1300px;
   word-wrap:normal;
 
 }
+
