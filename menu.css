@@ -219,29 +219,27 @@ footer {
 #process_img {
   z-index: -3; 
 
-  display: block;
-  margin-left: 50%;
-  margin-right: 0%;
-  width: 25%;
-  height: 25%;
-  position: relative;
+  width: 40%;
+  height: 40%;
+  padding-left: -100px;
+
 }
 #process p {
   max-width:590px;
 }
 
 .box {
-  clip-path: polygon(0 4em,4em 0,calc(100% - 4em) 0,100% 4em,100% calc(100% - 4em),calc(100% - 4em) 100%,4em 100%,0 calc(100% - 4em));
+  clip-path: polygon(0 0, 100% 21%, 100% 100%, 0 82%);
 }
 
 .diagonal_B {
   z-index: -4; 
   --skew-angle: 7deg;
-  --background: linear-gradient( 100deg, #CBA591, #FFEFCB,#FFEFCB);
+  --background: linear-gradient( 100deg, #CBA591, #FFEFCB,#FFEFCB, #FFEFCB);
   position: absolute;
   isolation: isolate;
-  margin-top: 800px;
-  margin-left: 800;
+  margin-top: 200px;
+  margin-left: 900;
 }
 
 .diagonal_B::after {
