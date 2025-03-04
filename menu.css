@@ -216,7 +216,7 @@ footer {
   margin-top: -130px;
 }
 
-#process_img {
+#menu_A_img {
   z-index: -3; 
 
   width: 40%;
@@ -224,8 +224,13 @@ footer {
   padding-left: -100px;
 
 }
-#process p {
-  max-width:590px;
+
+#menu_B_img {
+  z-index: -3; 
+
+  width: 40%;
+  height: 40%;
+
 }
 
 .box {
@@ -240,9 +245,31 @@ footer {
   isolation: isolate;
   margin-top: 200px;
   margin-left: 900;
+  width: 50%;
 }
 
 .diagonal_B::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -4;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
+.diagonal_C {
+  z-index: -4; 
+  --skew-angle: 7deg;
+  --background: linear-gradient( 100deg, #FFEFCB, #FFEFCB, #FFEFCB);
+  position: absolute;
+  isolation: isolate;
+  margin-top: 900px;
+  margin-right: -1000px;
+  margin-left: 1000px;
+  width: 50%;
+}
+
+.diagonal_C::after {
   content: '';
   background: var(--background);
   position: absolute;
