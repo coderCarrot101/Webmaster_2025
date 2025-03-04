@@ -281,7 +281,7 @@ footer {
 .menu {
   margin: 0 auto;
   background-color: #FFEFCB;
-  width: 1000px;
+  width: 700px;
   padding-top: 50px;
   padding-bottom: 50px;
   /*box-shadow: 0px 5px 9px 3px rgba(83, 7, 7, 0.63);*/
@@ -291,7 +291,7 @@ footer {
 .menu p {
   margin:auto;
   all: initial;
-  font-size: 35px;
+  font-size: 25px;
   color: hsl(23, 33%, 28%);
   max-width:1300px;
   word-wrap:normal;
