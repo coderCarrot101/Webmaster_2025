@@ -264,7 +264,7 @@ footer {
   position: absolute;
   isolation: isolate;
   margin-top: 500px;
-
+  margin-left: 60%;
   width: 40%;
 }
 
