@@ -120,7 +120,7 @@ img {
   max-height: 100%;
   width: 15em;
   height: 15em;
-
+  border: 5px solid #604230;
 }
 
 .image_horizontal img {
@@ -227,9 +227,19 @@ footer {
 
 #menu_B_img {
   z-index: -3; 
+  width: 45%;
+  height: 45%;
+  margin-right: 100%;
+
+
+}
+
+#menu_C_img {
+  z-index: -3; 
+
   width: 40%;
   height: 40%;
-  position:relative;
+  padding-left: -100px;
 
 }
 
@@ -244,7 +254,7 @@ footer {
   position: absolute;
   isolation: isolate;
   margin-top: 200px;
-  margin-left: 900;
+  margin-right: 140%;
   width: 40%;
 }
 
@@ -263,12 +273,32 @@ footer {
   --background: linear-gradient( 100deg, #FFEFCB, #FFEFCB, #FFEFCB, #CBA591);
   position: absolute;
   isolation: isolate;
-  margin-top: 500px;
+  margin-top: 600px;
   margin-left: 60%;
   width: 40%;
 }
 
 .diagonal_C::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -4;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
+.diagonal_D {
+  z-index: -4; 
+  --skew-angle: 7deg;
+  --background: linear-gradient( 100deg, #CBA591, #FFEFCB,#FFEFCB, #FFEFCB);
+  position: absolute;
+  isolation: isolate;
+  margin-top: 900px;
+  margin-right: 140%;
+  width: 40%;
+}
+
+.diagonal_D::after {
   content: '';
   background: var(--background);
   position: absolute;
@@ -284,8 +314,10 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align:center;
-  --skew-angle: 7deg;
-  --background: linear-gradient( 100deg, #FFEFCB, #FFEFCB, #FFEFCB, #CBA591);
+  background: 
+  linear-gradient(220deg, #CBA591 10%, #FFEFCB 30%) top/110% 20%, 
+  linear-gradient(40deg, #CBA591 2%, #FFEFCB 10%);
+  background-repeat:no-repeat;
 }
 
 .menu p {
