@@ -45,6 +45,12 @@
     background-color: #FFEFCB;
     margin: 0;
     /*background-image: url("gelato_B.jpg");*/
+
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100vh;
+    margin: 0;
+
   
   }
   
@@ -96,9 +102,9 @@
   
   .diagonal {
     z-index: 1; 
-    --skew-angle: -5deg;
+    --skew-angle: 2deg;
     --background: linear-gradient( 45deg, #CBA591, #CBA591,#FFEFCB);
-  
+    width: 100%;
     position: relative;
     isolation: isolate;
   }
@@ -176,84 +182,37 @@
     width: 100%;
   }
   
-  #gelato_B {
-    z-index: -5; 
-    margin-top: 0px;
-    display: block;
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    clip-path: polygon(0 8%, 100% 0%, 100% 65%, 0 86%);
-  }
-  
-  #gelato_B_element {
-    --skew-angle: -5deg;
-    --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#FFEFCB);
-    margin-top: 230px;
-    display: block;
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 50%;
-    height: 1%;
-    position: absolute;
-    isolation: isolate;
-    z-index: -4; 
-  
-  }
-  
-  #gelato_B_element::after {
-    content: '';
-    background: var(--background);
-    position: absolute;
-    z-index: -4;
-    inset: 0;
-    transform: skewY(var(--skew-angle));
-  }
-  
-  #mission {
-    display: block;
-    margin-left: 50%;
-    margin-right: 0%;
-    margin-top: -130px;
-    
-  }
-  
-  #process_img {
-    z-index: -3; 
-  
-    display: block;
-    margin-left: 50%;
-    margin-right: 0%;
-    width: 25%;
-    height: 25%;
-    position: relative;
-    
-  }
-  #process p {
-    max-width:590px;
+  .about_us_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 80em;
+    height: 80em;
   }
   
   .box {
-    clip-path: polygon(0 14%, 100% 19%, 100% 93%, 0 86%);
+    background-color: #CBA591;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
   }
+
+
+/* Different shapes */
+.box:nth-child(1) {
   
-  .diagonal_B {
-    z-index: -4; 
-    --skew-angle: 0deg;
-    --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#CBA591);
-    position: relative;
-    isolation: isolate;
-    margin-top: -300px;
-  }
-  
-  .diagonal_B::after {
-    content: '';
-    background: var(--background);
-    position: absolute;
-    z-index: -4;
-    inset: 0;
-    transform: skewY(var(--skew-angle));
-  }
-  
+  clip-path: polygon(0 0, 91% 7%, 94% 95%, 6% 99%);
+}
+
+.box:nth-child(2) {
+  clip-path: polygon(6% 3%, 96% 4%, 92% 100%, 2% 95%);
+}
+
+.box:nth-child(3) {
+  clip-path: polygon(3% 6%, 95% 2%, 91% 97%, 6% 99%);
+}
+
+.box:nth-child(4) {
+  clip-path: polygon(0 7%, 96% 4%, 95% 94%, 0% 100%);
+}

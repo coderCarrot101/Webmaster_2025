@@ -23,3 +23,8 @@ Veganism is the practice of abstaining from the use of animal products and the c
 
 as such, There is no animal milk, butter, fats etc in this product. and it is 100% Cruelty free
 (this may be important to mention on the About Us or Documentation page.)
+
+
+for the documentation page:
+    there will be two embedded PDFs: The work log and another thing that I'll need Mrs. Key to sign.
+    below these will need to be the images listed (names, not the actual images themselves), a link to their source and their type of CC license
