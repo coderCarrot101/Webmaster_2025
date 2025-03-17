@@ -149,32 +149,7 @@ footer {
   width: 50%;
   height: 50%;
   position: absolute;
-  clip-path: polygon(0 8%, 100% 0%, 100% 65%, 0 86%);
-}
 
-/*cuts off part of gelato_B*/
-#gelato_B_element {
-  --skew-angle: -5deg;
-  --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#FFEFCB);
-  margin-top: 230px;
-  display: block;
-  margin-left: 0%;
-  margin-right: 0%;
-  width: 50%;
-  height: 1%;
-  position: absolute;
-  isolation: isolate;
-  z-index: -4; 
-
-}
-
-#gelato_B_element::after {
-  content: '';
-  background: var(--background);
-  position: absolute;
-  z-index: -4;
-  inset: 0;
-  transform: skewY(var(--skew-angle));
 }
 
 #mission {
