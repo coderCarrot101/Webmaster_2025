@@ -216,6 +216,12 @@ footer {
   margin-top: -130px;
 }
 
+#logo{
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+
 #menu_A_img {
   z-index: 3; 
 

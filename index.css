@@ -139,6 +139,11 @@ footer {
   width: 100%;
 }
 
+#logo{
+  width: 50%;
+  height: 50%;
+  border: none;
+}
 
 #gelato_B {
   z-index: -5; 
