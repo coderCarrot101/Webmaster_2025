@@ -337,3 +337,12 @@ footer {
 
 }
 
+#cost {
+  margin-left:20%;
+  margin-top:-2.5%;
+  font-size: 20px;
+  color: #8f3639;
+  max-width:1300px;
+  word-wrap:normal;
+  float: left;
+}
