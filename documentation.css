@@ -3,3 +3,213 @@
     height: 50%;
     border: none;
   }
+
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #8f3639;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3; 
+}
+  
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  
+  color: #FFEFCB;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+  font-size: 1em;
+
+}
+  
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #b74d51;
+  color: #FFEFCB;
+  font-weight: bold;
+}
+
+/* removes all the fancy styling from links */
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+body {
+  background-color: #FFEFCB;
+  margin: 0;
+
+}
+
+p {
+  font-size: 15px;
+  text-indent: 20px;
+  color: #604230;
+  padding-left: 5%;
+  max-width:1300px;
+  word-wrap:normal;
+  margin-left: 1em;
+}
+
+h3 {
+
+  text-indent: 20px;
+  color: #604230;
+  padding-left: 5%;
+  max-width:1300px;
+  word-wrap:normal;
+  margin-left: 1em;
+
+}
+
+h1 {
+  text-align: center;
+  text-indent: 20px;
+  font-size: 35px;
+  color: #604230;
+  margin-left: 1em;
+}
+
+h2 {
+  text-indent: 20px;
+  color: #604230;
+  margin-left: 1em;
+}
+
+section {
+  padding-block: 5rem;
+}
+
+/*diagonal streak*/
+.diagonal {
+  z-index: 1; 
+  --skew-angle: -5deg;
+  --background: linear-gradient( 45deg, #CBA591, #CBA591,#FFEFCB);
+
+  position: relative;
+  isolation: isolate;
+}
+
+.diagonal::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
+.section-title {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  background: #8f3639;
+  color: #FFEFCB;
+  font-size: 2.25rem;
+}
+
+.section-title:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #8f3639;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+  
+footer p {
+  background-color: #8f3639;
+  width: 100%;
+  color: #FFEFCB;
+  font-size: 1em;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #8f3639;
+  width: 100%;
+}
+
+#logo{
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+
+#gelato_B {
+  z-index: -5; 
+  margin-top: 0px;
+  display: block;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+
+}
+
+#mission {
+  display: block;
+  margin-left: 50%;
+  margin-right: 0%;
+  margin-top: -130px;
+  
+}
+
+#process_img {
+  z-index: -3; 
+
+  display: block;
+  margin-left: 50%;
+  margin-right: 0%;
+  width: 25%;
+  height: 25%;
+  position: relative;
+  
+}
+#process p {
+  max-width:590px;
+}
+/*applies a shape to images, see notes for useful tool*/
+/*first use of this, will use this method going forward*/
+.box {
+  clip-path: polygon(0 14%, 100% 19%, 100% 93%, 0 86%);
+}
+/*horizontal streak, idk why I named it this*/
+.diagonal_B {
+  z-index: -4; 
+  --skew-angle: 0deg;
+  --background: linear-gradient( 45deg, #FFEFCB, #FFEFCB,#CBA591);
+  position: relative;
+  isolation: isolate;
+  margin-top: -300px;
+}
+
+.diagonal_B::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -4;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
+img {
+  border: 5px solid #604230;
+
+}

@@ -223,6 +223,8 @@ footer {
   border: none;
 }
 
+/*the following is the three images and the backgrounds behind them*/
+
 #menu_A_img {
   z-index: 3; 
 
@@ -321,10 +323,7 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align:center;
-  /*background: 
-  linear-gradient(220deg, #CBA591 10%, #FFEFCB 30%) top/110% 20%, 
-  linear-gradient(40deg, #CBA591 2%, #FFEFCB 10%);
-  background-repeat:no-repeat;*/
+
 }
 
 .menu p {
