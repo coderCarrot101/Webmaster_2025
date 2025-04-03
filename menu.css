@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 3; 
+  z-index: 10; 
 }
   
 /* Links inside the navbar */
@@ -124,6 +124,7 @@ img {
 }
 
 .image_horizontal img {
+  z-index: 1; 
   max-width: 100%;
   max-height: 100%;
   width: 15em;
@@ -174,13 +175,13 @@ footer {
 }
 
 #gelato_B {
-  z-index: -5; 
+  z-index: 1; 
   margin-top: 0px;
   display: block;
   margin-left: 0%;
   margin-right: 0%;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   position: absolute;
 
 }
@@ -216,29 +217,35 @@ footer {
   margin-top: -130px;
 }
 
-#menu_A_img {
-  z-index: -3; 
+#logo{
+  width: 50%;
+  height: 50%;
+  border: none;
+}
 
-  width: 40%;
-  height: 40%;
-  padding-left: -100px;
+/*the following is the three images and the backgrounds behind them*/
+
+#menu_A_img {
+  z-index: 3; 
+
+  width: 50%;
+  height: 50%;
 
 }
 
 #menu_B_img {
-  z-index: -3; 
+  z-index: 3; 
   width: 45%;
   height: 45%;
-  margin-right: 100%;
-
+  
 
 }
 
 #menu_C_img {
-  z-index: -3; 
+  z-index: 3; 
 
-  width: 40%;
-  height: 40%;
+  width: 80%;
+  height: 80%;
   padding-left: -100px;
 
 }
@@ -248,14 +255,14 @@ footer {
 }
 
 .diagonal_B {
-  z-index: -4; 
+  z-index: 4; 
   --skew-angle: 7deg;
   --background: linear-gradient( 100deg, #CBA591, #FFEFCB,#FFEFCB, #FFEFCB);
   position: absolute;
   isolation: isolate;
   margin-top: 200px;
   margin-right: 140%;
-  width: 40%;
+  width: 30%;
 }
 
 .diagonal_B::after {
@@ -268,7 +275,7 @@ footer {
 }
 
 .diagonal_C {
-  z-index: -4; 
+  z-index: 4; 
   --skew-angle: 7deg;
   --background: linear-gradient( 100deg, #FFEFCB, #FFEFCB, #FFEFCB, #CBA591);
   position: absolute;
@@ -276,6 +283,7 @@ footer {
   margin-top: 600px;
   margin-left: 60%;
   width: 40%;
+  height: 20%;
 }
 
 .diagonal_C::after {
@@ -288,14 +296,14 @@ footer {
 }
 
 .diagonal_D {
-  z-index: -4; 
+  z-index: 4; 
   --skew-angle: 7deg;
   --background: linear-gradient( 100deg, #CBA591, #FFEFCB,#FFEFCB, #FFEFCB);
   position: absolute;
   isolation: isolate;
   margin-top: 900px;
   margin-right: 140%;
-  width: 40%;
+  width: 20%;
 }
 
 .diagonal_D::after {
@@ -308,16 +316,14 @@ footer {
 }
 /*add a gradient to the menu*/
 .menu {
+
   margin: 0 auto;
   background-color: #FFEFCB;
-  width: 50%;
+  width: 60%;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align:center;
-  background: 
-  linear-gradient(220deg, #CBA591 10%, #FFEFCB 30%) top/110% 20%, 
-  linear-gradient(40deg, #CBA591 2%, #FFEFCB 10%);
-  background-repeat:no-repeat;
+
 }
 
 .menu p {
@@ -330,3 +336,12 @@ footer {
 
 }
 
+#cost {
+  margin-left:20%;
+  margin-top:-2.5%;
+  font-size: 20px;
+  color: #8f3639;
+  max-width:1300px;
+  word-wrap:normal;
+  float: left;
+}
